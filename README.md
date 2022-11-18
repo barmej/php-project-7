@@ -1,38 +1,67 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## Barmej - PHP
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## مشروع سوق الاختراعات
 
-## About Laravel
+### نبذة عن المشروع
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+في هذا المشروع نريد انشاء موقع خاص بالشركات الصغيرة العربيه التي تريد الدخول في عالم الاختراعات سواء للربوتات او غيرها، آملين ان يكون هناك يوما نرى فيه الكثير من الاختراعات في عالمنا العربي، لذا نريدك أن تنشئ موقع تجاري لهم لعرض اختراعاتهم و بيعها.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+ايضا نريد منك توفير طرق بيع باستخدام tap أو أي طريقة أخرى مثل Paypal و بالكاش، و توفير خدمة التسجيل و الدخول، و تعدد اللغات و طبعا نظام Git و الجلسات.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+و نريد منك توفير خدمة رفع الصور للشركات لشعارها و لسلعها، و كتابة كود لانشاء معلومات وهمية باستخدام نظام الـ Factory.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
+فقط الأشخاص الذين قاموا بتسجيل دخولهم يمكنهم شراء السلع و رؤية حالة الطلب في صفحتهم الخاصه، قم بإضافة ابداعاتك هنا.
+
+###  قائمة من طرق الدفع المتاحة
+Tap https://www.tap.company/kw/en/collect
+
+Papal https://www.paypal.com
+
+Payfort https://www.payfort.com
+
+MyFatoora https://www.myfatoorah.com
+
+## الهدف من هذا المشروع ؟ 
+في الدروس السابقة تعلمنا على طريقة انشاء موقع تجاري و تمكنا من استخدام إطار Bootstrap و ايضا نظام المستخدمين و قمنا أيضا بالربط مع نظام الدفع للمواقع و اضفنا صفحة لإنشاء المتاجر و السلع و الطلبات ، الكثير… نريد تطبيق اغلب الذي تعلمناه هنا
+
+###  ما الذي سوف تتعلمه من هذا المشروع ؟ 
+يجمع هذا المشروع العديد من الأفكار والمهارات التي تعلمناها خلال الدروس والتي تشمل على:
+
+- استخدام نظام Git
+- استخدام نظام اكواد Laravel repository
+- اضافه تعدد اللغات Localization
+- نظام الجلسات Sessions
+- نظام المستخدمين
+- نظام الدفع tap أو غيره
+- صفحات لانشاء و تعديل معلومات القوالب
+- رفع الملفات على الموقع
+
+## متطلبات المشروع
+يجب أن يحتوي المشروع على المزايا التالية:
+- قوالب Models خاصة بالمستخدمين، المتاجر، السلع و الطلبات
+- متحكمات Controller خاصة المستخدمين، المتاجر، السلع ، الطلبات
+- واجهات Views لعرض الصفحه الرئيسيه والمتاجر و السلع و الطلبات
+- واجهة مشتركة لكل الواجهات
+- كلاس من نوع Repository
+- نقاط استعاده Commits
+- نظام تعدد لغات Localization
+- نظم الجلسات Sessions
+- نظام Git
+- الربط مع Api الخاص بأي موقع من مواقع الدفع الإلكتروني
+- صفحات لإنشاء و تعديل و حذف المتاجر و السلع
+- نظام مستخدمين
+- نظام رفع الصور للمتاجر و السلع بشروط معينة للصور، قم باختيار الشروط بنفسك
+
+## تصميم المشروع
+لأخذ فكرة عن شكل المشروع يمكنك زيارة الرابط بالضغط هنا
+
+[مثال لتصميم المشروع](https://www.figma.com/file/f0IpN8AjowldfpOG4tPCG2/Barmej-Students-projects?node-id=25%3A144)
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
